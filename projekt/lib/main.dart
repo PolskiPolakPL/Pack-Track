@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'screens/luggage_screen.dart';
 import 'screens/travels_screen.dart';
-import 'screens/add_luggage_screen.dart';
-import 'screens/add_items_screen.dart';
-import 'screens/travel_details_screen.dart';
 
 void main() {
   runApp(const MyApp());

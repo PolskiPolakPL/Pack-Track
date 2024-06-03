@@ -1,0 +1,116 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:5989035304517861041",
+      "lastPropertyId": "5:8993984867510355278",
+      "name": "Item",
+      "properties": [
+        {
+          "id": "1:7496177357581151607",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4822760175045556779",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:732152797217805109",
+          "name": "quantity",
+          "type": 6
+        },
+        {
+          "id": "4:1344067265551087458",
+          "name": "oneWay",
+          "type": 1
+        },
+        {
+          "id": "5:8993984867510355278",
+          "name": "luggageId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "1:1741979378428645344",
+          "relationTarget": "Luggage"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:341217097533485390",
+      "lastPropertyId": "6:1632054896012876160",
+      "name": "Luggage",
+      "properties": [
+        {
+          "id": "1:6406651982188057810",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7100658344631884249",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:2723212820540154915",
+          "name": "type",
+          "type": 9
+        },
+        {
+          "id": "4:3063555802910040739",
+          "name": "size",
+          "type": 9
+        },
+        {
+          "id": "5:5067581359994624677",
+          "name": "color",
+          "type": 6
+        },
+        {
+          "id": "6:1632054896012876160",
+          "name": "travelId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "2:6913523058200672128",
+          "relationTarget": "Travel"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:4601665463223228725",
+      "lastPropertyId": "2:2924766414374412330",
+      "name": "Travel",
+      "properties": [
+        {
+          "id": "1:2663115861667685027",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2924766414374412330",
+          "name": "name",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:4601665463223228725",
+  "lastIndexId": "2:6913523058200672128",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
